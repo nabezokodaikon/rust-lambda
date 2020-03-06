@@ -159,7 +159,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/rust-sample/dev/1583497438310-2020-03-06T12:23:58.310Z/rust_serverless.zip"
+                "S3Key": "serverless/rust-sample/dev/1583497777636-2020-03-06T12:29:37.636Z/rust_serverless.zip"
               },
               "FunctionName": "rust-sample-dev-example-function",
               "Handler": "rust_serverless",
@@ -178,14 +178,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "ExampleDashfunctionLambdaVersionsZxIfPHbmKiLEk97vkChM96OwFcuPnyt61JYoO8MMI": {
+          "ExampleDashfunctionLambdaVersionmqal9IFGRIcanpC15B8BMLg5NlLTNqQuwDfj6rFCoWY": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ExampleDashfunctionLambdaFunction"
               },
-              "CodeSha256": "hP5k0o1AmWFQaw2OTX7pg/mbziYFcD4EvZ6PKPPCqQ4="
+              "CodeSha256": "IbHXW00xCoIPUpPTIkddHNm5YLU+OFXQo3Nymfgmmvs="
             }
           },
           "ApiGatewayRestApi": {
@@ -246,7 +246,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1583497437143": {
+          "ApiGatewayDeployment1583497776309": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -305,7 +305,7 @@
           "ExampleDashfunctionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ExampleDashfunctionLambdaVersionsZxIfPHbmKiLEk97vkChM96OwFcuPnyt61JYoO8MMI"
+              "Ref": "ExampleDashfunctionLambdaVersionmqal9IFGRIcanpC15B8BMLg5NlLTNqQuwDfj6rFCoWY"
             }
           },
           "ServiceEndpoint": {
@@ -426,7 +426,7 @@
         "timeout": 6,
         "runtime": "provided",
         "vpc": {},
-        "versionLogicalId": "ExampleDashfunctionLambdaVersionsZxIfPHbmKiLEk97vkChM96OwFcuPnyt61JYoO8MMI"
+        "versionLogicalId": "ExampleDashfunctionLambdaVersionmqal9IFGRIcanpC15B8BMLg5NlLTNqQuwDfj6rFCoWY"
       }
     },
     "serviceFilename": "serverless.yml",
@@ -435,7 +435,7 @@
   },
   "package": {
     "individually": true,
-    "artifactDirectoryName": "serverless/rust-sample/dev/1583497438310-2020-03-06T12:23:58.310Z",
+    "artifactDirectoryName": "serverless/rust-sample/dev/1583497777636-2020-03-06T12:29:37.636Z",
     "artifact": ""
   }
 }
