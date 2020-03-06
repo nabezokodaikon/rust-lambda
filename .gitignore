@@ -2,3 +2,4 @@ target/
 **/*.rs.bk
 main
 tags
+node_modules/
