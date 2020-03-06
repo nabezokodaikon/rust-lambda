@@ -20,7 +20,7 @@ mod tests {
     fn handler_handles() {
         let request: Request = Request::default();
         let expected = json!({
-            "message": "AWS Lamnda on Rust"
+            "message": "AWS Lambda on Rust"
         })
         .into_response();
         let response = handler(request, Context::default())
