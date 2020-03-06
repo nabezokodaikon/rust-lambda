@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "serverless": "^1.65.0"
+    "serverless": "^1.65.0",
+    "serverless-rust": "^0.3.7"
   }
 }
