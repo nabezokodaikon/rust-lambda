@@ -1,6 +1,6 @@
 ## LocalでLambda単体テスト
 ```
-$ yarn sls invoke local -f example-function --path src/example_request.json
+$ yarn sls invoke local -f example-function --path test/resources/example_request.json
 ```
 
 ### デプロイ
@@ -10,7 +10,7 @@ $ yarn sls deploy --aws-profile nabezokodaikon
 
 ## AWS上でLambda単体テスト
 ```
-$ yarn sls invoke -f example-function --path src/example_request.json --aws-profile nabezokodaikon
+$ yarn sls invoke local -f example-function --path test/resources/example_request.json --aws-profile nabezokodaikon
 ```
 
 ## API Gateway経由の結合テスト
