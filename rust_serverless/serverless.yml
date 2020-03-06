@@ -1,0 +1,17 @@
+service: rust-sample
+provider:
+    name: aws
+    runtime: rust
+    memorysize: 128
+    region: ap-northeast-1
+plugins:
+    - serverless-rust
+package:
+    individually: true
+functions:
+    example-function:
+        handler: rust-sample
+        events:
+            - http:
+                path: /
+                method: GET
