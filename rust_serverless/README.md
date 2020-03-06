@@ -1,3 +1,5 @@
+[【AWS】RustでServerlessFrameworkを使ってみる](https://qiita.com/hisayuki/items/b4f8b21986468c34be02)
+
 ## LocalでLambda単体テスト
 ```
 $ yarn sls invoke local -f example-function --path test/resources/example_request.json
