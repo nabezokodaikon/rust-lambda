@@ -3,3 +3,4 @@ target/
 main
 tags
 node_modules/
+.serverless/
