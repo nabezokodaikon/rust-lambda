@@ -17,5 +17,5 @@ $ yarn sls invoke local -f example-function --path test/resources/example_reques
 
 ## API Gateway経由の結合テスト
 ```
-$ curl -X GET https://sypvc0y3ud.execute-api.ap-northeast-1.amazonaws.com/dev/
+$ curl -X GET https://5tihtr23f3.execute-api.ap-northeast-1.amazonaws.com/dev/
 ```
